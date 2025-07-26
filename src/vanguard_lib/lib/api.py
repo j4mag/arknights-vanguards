@@ -50,11 +50,9 @@ class SimulationSetup(pydantic.BaseModel):
 
 
 class SimulationResult(pydantic.BaseModel):
+    model_config = pydantic.ConfigDict(arbitrary_types_allowed=True)
     name: str
     setup: SimulationSetup
 
     t: np.ndarray
     dp: np.ndarray
-
-    class Config:
-        arbitrary_types_allowed = True

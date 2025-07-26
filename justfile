@@ -23,7 +23,8 @@ _cov *args:
 @cov:
     just _cov erase
     just _cov run -m pytest tests
-    just _cov combine
+    # just _cov run -m pytest some-other-test
+    # just _cov combine
     just _cov report
     just _cov html
 
@@ -36,7 +37,7 @@ lint:
 # Check types
 [group('qa')]
 typing:
-    uvx ty check --python .venv src
+    uvx ty check --python .venv src --output-format concise
 
 # Perform all checks
 [group('qa')]
@@ -68,7 +69,8 @@ clean:
     just _rmdir .venv
     just _rmdir .pytest_cache
     just _rmdir .ruff_cache
-    just _rmdir outputs
+    just _rmdir output
+    just _rmdir htmlcov
     just _find_remove . __pycache__
 
 

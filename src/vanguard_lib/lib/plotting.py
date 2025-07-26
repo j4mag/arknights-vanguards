@@ -19,9 +19,7 @@ def floor_to(x: float, to: float) -> float:
 PLOT_RANGE = [0, 120]
 
 
-def plot_dp_absolute(
-    results: list[api.SimulationResult], title: str = ""
-) -> go.Figure:
+def plot_dp_absolute(results: list[api.SimulationResult], title: str = "") -> go.Figure:
     baseline = simulation.simulate(
         api.SimulationSetup(
             name="Natural DP Generation",
@@ -74,14 +72,13 @@ def plot_dp_absolute(
                 f"<br>{result.setup.operator.skill.name}</extra>",
             )
             for result in results
+            if result.setup.operator is not None
         ],
     )
     return fig
 
 
-def plot_dp_added(
-    results: list[api.SimulationResult], title: str = ""
-) -> go.Figure:
+def plot_dp_added(results: list[api.SimulationResult], title: str = "") -> go.Figure:
     baseline = simulation.simulate(
         api.SimulationSetup(
             name="Natural DP Generation",
@@ -134,6 +131,7 @@ def plot_dp_added(
                 f"<br>{result.setup.operator.skill.name}</extra>",
             )
             for result in results
+            if result.setup.operator is not None
         ],
     )
     return fig
@@ -161,16 +159,19 @@ def plot_dp_added_trend(
             np.convolve(  # very gross moving average, where the period is the operator's cycle time
                 result.dp - baseline.dp,
                 window(
-                    (
-                        result.setup.operator.skill.sp_cost
-                        + result.setup.operator.skill.duration
+                    int(
+                        (
+                            result.setup.operator.skill.sp_cost
+                            + result.setup.operator.skill.duration
+                        )
+                        // result.setup.time_step
                     )
-                    / result.setup.time_step
                 ),
                 "same",
             ),
         )
         for result in results
+        if result.setup.operator is not None
     ]
 
     fig = go.Figure(
@@ -237,9 +238,7 @@ def plot_dp_added_trend(
     return fig
 
 
-def plot_dp_relative(
-    results: list[api.SimulationResult], title: str = ""
-) -> go.Figure:
+def plot_dp_relative(results: list[api.SimulationResult], title: str = "") -> go.Figure:
     baseline = results[0]
     fig = go.Figure(
         layout=go.Layout(
@@ -284,17 +283,30 @@ def plot_dp_relative(
                 f"<br>{result.setup.operator.skill.name}</extra>",
             )
             for result in results
+            if result.setup.operator is not None
         ],
     )
     return fig
 
 
-def save_plot(fig: go.Figure, tgt_dir: pathlib.Path = "outputs", show: bool = False, mkdir: bool = False):
+def save_plot(
+    fig: go.Figure,
+    tgt_dir: pathlib.Path = pathlib.Path("outputs"),
+    show: bool = False,
+    mkdir: bool = False,
+):
     tgt_dir = pathlib.Path(tgt_dir)
     if mkdir:
         tgt_dir.mkdir(exist_ok=True)
 
-    title = slugify.slugify(fig.layout.title.text or uuid.uuid1()) + ".html"
+    title = None
+    if fig.layout.title is not None:
+        if fig.layout.title.text is not None:
+            title = fig.layout.title.text
+    if not title:
+        title = uuid.uuid1()
+
+    title = slugify.slugify(str(title)) + ".html"
     fig.write_html(tgt_dir / title)
 
     if show:
