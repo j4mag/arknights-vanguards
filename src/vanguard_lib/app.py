@@ -30,28 +30,26 @@ class Parameters(pydantic.BaseModel):
 
 def get_parameters(config_path: pathlib.Path | None) -> Parameters:
     if config_path:
-        with open(config_path) as f:
+        with open(config_path, encoding="utf-8") as f:
             config_json = json.load(f)
-        return Parameters(
-            simulations=config_json["simulations"],
-            output_dir=config_json["output_dir"],
-        )
+        return Parameters.model_validate(config_json)
 
     return Parameters(
         simulations=[
             SimulationParameters(
                 operators=vanguards.ALL_OPERATOR_SKILLS,
-                title="",
+                title="All Operators",
                 t_step=0.1,
                 t_end=240,
                 dp_start=0,
-                plot_dp_absolute=False,
+                plot_dp_absolute=True,
                 plot_dp_added=True,
                 plot_dp_added_trend=True,
                 plot_dp_relative=True,
             ),
             SimulationParameters(
                 operators=vanguards.ALL_OPERATOR_SKILLS,
+                title="All Operators",
                 t_step=0.1,
                 t_end=240,
                 dp_start=20,
@@ -70,6 +68,7 @@ def get_parameters(config_path: pathlib.Path | None) -> Parameters:
                     # OPERATOR_VULPISFOGLIA_Y1[2], # Y1, S3S3, P1
                     vanguards.OPERATOR_VULPISFOGLIA_Y1[3],  # Y1, S2M3, P6
                 ],
+                title="Vulpisfoglia",
                 t_step=0.1,
                 t_end=240,
                 dp_start=0,

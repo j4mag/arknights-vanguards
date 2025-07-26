@@ -6,7 +6,7 @@
                     "name": "Myrtle P6",
                     "cost": 8,
                     "skill": {
-                        "name": "S1M3 - Support Î²",
+                        "name": "S1M3 - Support β",
                         "initial_sp": 13.0,
                         "sp_cost": 22.0,
                         "duration": 8.0,
@@ -34,7 +34,7 @@
                     "name": "Wanqing P6",
                     "cost": 10,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -62,7 +62,7 @@
                     "name": "Elysium P6",
                     "cost": 9,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -100,7 +100,7 @@
                     "name": "Saileach P1",
                     "cost": 12,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -157,7 +157,7 @@
                     "name": "Texas P6",
                     "cost": 11,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -195,7 +195,7 @@
                     "name": "Texas P6 modY3",
                     "cost": 7,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -233,7 +233,7 @@
                     "name": "Siege P1",
                     "cost": 7,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -275,7 +275,7 @@
                     "name": "Saga P1",
                     "cost": 14,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -317,7 +317,7 @@
                     "name": "Saga P1 modY3",
                     "cost": 10,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -789,8 +789,8 @@
             "t_step": 0.1,
             "t_end": 240.0,
             "dp_start": 0.0,
-            "title": "",
-            "plot_dp_absolute": false,
+            "title": "All Operators",
+            "plot_dp_absolute": true,
             "plot_dp_added": true,
             "plot_dp_added_trend": true,
             "plot_dp_relative": true
@@ -801,7 +801,7 @@
                     "name": "Myrtle P6",
                     "cost": 8,
                     "skill": {
-                        "name": "S1M3 - Support Î²",
+                        "name": "S1M3 - Support β",
                         "initial_sp": 13.0,
                         "sp_cost": 22.0,
                         "duration": 8.0,
@@ -829,7 +829,7 @@
                     "name": "Wanqing P6",
                     "cost": 10,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -857,7 +857,7 @@
                     "name": "Elysium P6",
                     "cost": 9,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -895,7 +895,7 @@
                     "name": "Saileach P1",
                     "cost": 12,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -952,7 +952,7 @@
                     "name": "Texas P6",
                     "cost": 11,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -990,7 +990,7 @@
                     "name": "Texas P6 modY3",
                     "cost": 7,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1028,7 +1028,7 @@
                     "name": "Siege P1",
                     "cost": 7,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1070,7 +1070,7 @@
                     "name": "Saga P1",
                     "cost": 14,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1112,7 +1112,7 @@
                     "name": "Saga P1 modY3",
                     "cost": 10,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1584,7 +1584,7 @@
             "t_step": 0.1,
             "t_end": 240.0,
             "dp_start": 20.0,
-            "title": "",
+            "title": "All Operators",
             "plot_dp_absolute": false,
             "plot_dp_added": true,
             "plot_dp_added_trend": true,
@@ -1596,7 +1596,7 @@
                     "name": "Myrtle P6",
                     "cost": 8,
                     "skill": {
-                        "name": "S1M3 - Support Î²",
+                        "name": "S1M3 - Support β",
                         "initial_sp": 13.0,
                         "sp_cost": 22.0,
                         "duration": 8.0,
@@ -1683,7 +1683,7 @@
             "t_step": 0.1,
             "t_end": 240.0,
             "dp_start": 0.0,
-            "title": "",
+            "title": "Vulpisfoglia",
             "plot_dp_absolute": false,
             "plot_dp_added": true,
             "plot_dp_added_trend": true,
@@ -1695,7 +1695,7 @@
                     "name": "Myrtle P6",
                     "cost": 8,
                     "skill": {
-                        "name": "S1M3 - Support Î²",
+                        "name": "S1M3 - Support β",
                         "initial_sp": 13.0,
                         "sp_cost": 22.0,
                         "duration": 8.0,
@@ -1723,7 +1723,7 @@
                     "name": "Wanqing P6",
                     "cost": 10,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -1751,7 +1751,7 @@
                     "name": "Elysium P6",
                     "cost": 9,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -1789,7 +1789,7 @@
                     "name": "Saileach P1",
                     "cost": 12,
                     "skill": {
-                        "name": "S1M3 - Support Î³",
+                        "name": "S1M3 - Support γ",
                         "initial_sp": 15.0,
                         "sp_cost": 26.0,
                         "duration": 8.0,
@@ -1858,7 +1858,7 @@
                     "name": "Texas P6",
                     "cost": 11,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1896,7 +1896,7 @@
                     "name": "Texas P6 modY3",
                     "cost": 7,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1934,7 +1934,7 @@
                     "name": "Siege P1",
                     "cost": 7,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -1976,7 +1976,7 @@
                     "name": "Saga P1",
                     "cost": 14,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -2018,7 +2018,7 @@
                     "name": "Saga P1 modY3",
                     "cost": 10,
                     "skill": {
-                        "name": "S1M3 - Charge Î³",
+                        "name": "S1M3 - Charge γ",
                         "initial_sp": 20.0,
                         "sp_cost": 35.0,
                         "duration": 0.0,
@@ -2406,7 +2406,7 @@
                     "name": "Myrtle P6",
                     "cost": 8,
                     "skill": {
-                        "name": "S1M3 - Support Î²",
+                        "name": "S1M3 - Support β",
                         "initial_sp": 13.0,
                         "sp_cost": 22.0,
                         "duration": 8.0,

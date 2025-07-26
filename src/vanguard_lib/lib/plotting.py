@@ -291,7 +291,7 @@ def plot_dp_relative(results: list[api.SimulationResult], title: str = "") -> go
 
 def save_plot(
     fig: go.Figure,
-    tgt_dir: pathlib.Path = pathlib.Path("outputs"),
+    tgt_dir: pathlib.Path|str = "outputs",
     show: bool = False,
     mkdir: bool = False,
 ):
@@ -299,10 +299,7 @@ def save_plot(
     if mkdir:
         tgt_dir.mkdir(exist_ok=True)
 
-    title = None
-    if fig.layout.title is not None:
-        if fig.layout.title.text is not None:
-            title = fig.layout.title.text
+    title = fig.layout.title.text
     if not title:
         title = uuid.uuid1()
 
