@@ -1,0 +1,2539 @@
+{
+    "simulations": [
+        {
+            "operators": [
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Support Î²",
+                        "initial_sp": 13.0,
+                        "sp_cost": 22.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 14,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Healing Wings",
+                        "initial_sp": 10.0,
+                        "sp_cost": 24.0,
+                        "duration": 16.0,
+                        "total_dp_generation": 16,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Wanqing P6",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Wanqing P6",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Along the Easterlies",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Monitor",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S2M3 - Inheritance of Faith",
+                        "initial_sp": 5.0,
+                        "sp_cost": 29.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S3M3 - Glorious Banner",
+                        "initial_sp": 7.0,
+                        "sp_cost": 20.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 10,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Sword Rain",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6 modY3",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6 modY3",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S2M3 - Sword Rain",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S2M3 - Aerial Hammer",
+                        "initial_sp": 10.0,
+                        "sp_cost": 10.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 3,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S3M3 - Skull Breaker",
+                        "initial_sp": 25.0,
+                        "sp_cost": 30.0,
+                        "duration": 25.0,
+                        "total_dp_generation": 0,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Cleansing Evil (no kills)",
+                        "initial_sp": 10.0,
+                        "sp_cost": 13.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 4,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Fierce Glare",
+                        "initial_sp": 28.0,
+                        "sp_cost": 40.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Cleansing Evil (no kills)",
+                        "initial_sp": 10.0,
+                        "sp_cost": 13.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 4,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Fierce Glare",
+                        "initial_sp": 28.0,
+                        "sp_cost": 40.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Quick Intuition",
+                        "initial_sp": 9.0,
+                        "sp_cost": 18.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 6,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - 'Pinus Sylvestris'",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Flameheart",
+                        "initial_sp": 6.0,
+                        "sp_cost": 16.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 8,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Quick Intuition",
+                        "initial_sp": 9.0,
+                        "sp_cost": 18.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 6,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - 'Pinus Sylvestris'",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Flameheart",
+                        "initial_sp": 6.0,
+                        "sp_cost": 16.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 8,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Light Punishment",
+                        "initial_sp": 8.0,
+                        "sp_cost": 4.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 1,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Light Punishment",
+                        "initial_sp": 8.0,
+                        "sp_cost": 4.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 1,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P6 modY1 (Unreleased)",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Beanstalk P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Sentinel Command",
+                        "initial_sp": 15.0,
+                        "sp_cost": 30.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 8,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Beanstalk P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - 'Everyone Together!'",
+                        "initial_sp": 18.0,
+                        "sp_cost": 40.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Progressive Moisturization",
+                        "initial_sp": 8.0,
+                        "sp_cost": 28.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Ecological Interaction",
+                        "initial_sp": 18.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 15,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S3M3 - Superficial Regulation",
+                        "initial_sp": 18.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 15,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S1M3 - Packleader's Call",
+                        "initial_sp": 5.0,
+                        "sp_cost": 21.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S2M3 - Packleader's Gift (no kills)",
+                        "initial_sp": 4.0,
+                        "sp_cost": 5.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 2,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S3M3 - Packleader's Dignity",
+                        "initial_sp": 10.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Cantabile P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Penetrating Gaze",
+                        "initial_sp": 9999.0,
+                        "sp_cost": 9999.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 23,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Cantabile P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Specular Reflection",
+                        "initial_sp": 20.0,
+                        "sp_cost": 25.0,
+                        "duration": 10.65,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Puzzle P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S1M3 - Key Clue",
+                        "initial_sp": 2.0,
+                        "sp_cost": 5.0,
+                        "duration": 1.0,
+                        "total_dp_generation": 3,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sequence E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Puzzle P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Follow a Lead",
+                        "initial_sp": 14.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sequence E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Shadow Raid",
+                        "initial_sp": 2.78,
+                        "sp_cost": 2.78,
+                        "duration": 0.93,
+                        "total_dp_generation": 2,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Murky Night",
+                        "initial_sp": 15.0,
+                        "sp_cost": 20.0,
+                        "duration": 12.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S3M3 - Murky Night",
+                        "initial_sp": 9999.0,
+                        "sp_cost": 9999.0,
+                        "duration": 16.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 0.0,
+            "title": "",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": true,
+            "plot_dp_relative": true
+        },
+        {
+            "operators": [
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Support Î²",
+                        "initial_sp": 13.0,
+                        "sp_cost": 22.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 14,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Healing Wings",
+                        "initial_sp": 10.0,
+                        "sp_cost": 24.0,
+                        "duration": 16.0,
+                        "total_dp_generation": 16,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Wanqing P6",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Wanqing P6",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Along the Easterlies",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Monitor",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S2M3 - Inheritance of Faith",
+                        "initial_sp": 5.0,
+                        "sp_cost": 29.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S3M3 - Glorious Banner",
+                        "initial_sp": 7.0,
+                        "sp_cost": 20.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 10,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Sword Rain",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6 modY3",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6 modY3",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S2M3 - Sword Rain",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S2M3 - Aerial Hammer",
+                        "initial_sp": 10.0,
+                        "sp_cost": 10.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 3,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S3M3 - Skull Breaker",
+                        "initial_sp": 25.0,
+                        "sp_cost": 30.0,
+                        "duration": 25.0,
+                        "total_dp_generation": 0,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Cleansing Evil (no kills)",
+                        "initial_sp": 10.0,
+                        "sp_cost": 13.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 4,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Fierce Glare",
+                        "initial_sp": 28.0,
+                        "sp_cost": 40.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Cleansing Evil (no kills)",
+                        "initial_sp": 10.0,
+                        "sp_cost": 13.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 4,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Fierce Glare",
+                        "initial_sp": 28.0,
+                        "sp_cost": 40.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Quick Intuition",
+                        "initial_sp": 9.0,
+                        "sp_cost": 18.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 6,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - 'Pinus Sylvestris'",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Flameheart",
+                        "initial_sp": 6.0,
+                        "sp_cost": 16.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 8,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Quick Intuition",
+                        "initial_sp": 9.0,
+                        "sp_cost": 18.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 6,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - 'Pinus Sylvestris'",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Flameheart",
+                        "initial_sp": 6.0,
+                        "sp_cost": 16.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 8,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Light Punishment",
+                        "initial_sp": 8.0,
+                        "sp_cost": 4.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 1,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Light Punishment",
+                        "initial_sp": 8.0,
+                        "sp_cost": 4.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 1,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P6 modY1 (Unreleased)",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Beanstalk P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Sentinel Command",
+                        "initial_sp": 15.0,
+                        "sp_cost": 30.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 8,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Beanstalk P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - 'Everyone Together!'",
+                        "initial_sp": 18.0,
+                        "sp_cost": 40.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Progressive Moisturization",
+                        "initial_sp": 8.0,
+                        "sp_cost": 28.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Ecological Interaction",
+                        "initial_sp": 18.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 15,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S3M3 - Superficial Regulation",
+                        "initial_sp": 18.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 15,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S1M3 - Packleader's Call",
+                        "initial_sp": 5.0,
+                        "sp_cost": 21.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S2M3 - Packleader's Gift (no kills)",
+                        "initial_sp": 4.0,
+                        "sp_cost": 5.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 2,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S3M3 - Packleader's Dignity",
+                        "initial_sp": 10.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Cantabile P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Penetrating Gaze",
+                        "initial_sp": 9999.0,
+                        "sp_cost": 9999.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 23,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Cantabile P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Specular Reflection",
+                        "initial_sp": 20.0,
+                        "sp_cost": 25.0,
+                        "duration": 10.65,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Puzzle P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S1M3 - Key Clue",
+                        "initial_sp": 2.0,
+                        "sp_cost": 5.0,
+                        "duration": 1.0,
+                        "total_dp_generation": 3,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sequence E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Puzzle P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Follow a Lead",
+                        "initial_sp": 14.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sequence E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Shadow Raid",
+                        "initial_sp": 2.78,
+                        "sp_cost": 2.78,
+                        "duration": 0.93,
+                        "total_dp_generation": 2,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Murky Night",
+                        "initial_sp": 15.0,
+                        "sp_cost": 20.0,
+                        "duration": 12.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S3M3 - Murky Night",
+                        "initial_sp": 9999.0,
+                        "sp_cost": 9999.0,
+                        "duration": 16.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 20.0,
+            "title": "",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": true,
+            "plot_dp_relative": true
+        },
+        {
+            "operators": [
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Support Î²",
+                        "initial_sp": 13.0,
+                        "sp_cost": 22.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 14,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Monitor",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P6 modY1 (Unreleased)",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 0.0,
+            "title": "",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": true,
+            "plot_dp_relative": true
+        },
+        {
+            "operators": [
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Support Î²",
+                        "initial_sp": 13.0,
+                        "sp_cost": 22.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 14,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Healing Wings",
+                        "initial_sp": 10.0,
+                        "sp_cost": 24.0,
+                        "duration": 16.0,
+                        "total_dp_generation": 16,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Wanqing P6",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Wanqing P6",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Along the Easterlies",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Elysium P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Monitor",
+                        "initial_sp": 16.0,
+                        "sp_cost": 30.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sniper Support E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S1M3 - Support Î³",
+                        "initial_sp": 15.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S2M3 - Inheritance of Faith",
+                        "initial_sp": 5.0,
+                        "sp_cost": 29.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Saileach P1",
+                    "cost": 12,
+                    "skill": {
+                        "name": "S3M3 - Glorious Banner",
+                        "initial_sp": 7.0,
+                        "sp_cost": 20.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 10,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Spiritual Influence",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 11,
+                        "dp_on_trigger": 2
+                    }
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 0.0,
+            "title": "Flagbearers",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": true,
+            "plot_dp_relative": true
+        },
+        {
+            "operators": [
+                {
+                    "name": "Texas P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Sword Rain",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6 modY3",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Texas P6 modY3",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S2M3 - Sword Rain",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Tactical Delivery E2",
+                        "needs_to_be_deployed": false,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S2M3 - Aerial Hammer",
+                        "initial_sp": 10.0,
+                        "sp_cost": 10.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 3,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Siege P1",
+                    "cost": 7,
+                    "skill": {
+                        "name": "S3M3 - Skull Breaker",
+                        "initial_sp": 25.0,
+                        "sp_cost": 30.0,
+                        "duration": 25.0,
+                        "total_dp_generation": 0,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Cleansing Evil (no kills)",
+                        "initial_sp": 10.0,
+                        "sp_cost": 13.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 4,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Fierce Glare",
+                        "initial_sp": 28.0,
+                        "sp_cost": 40.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Charge Î³",
+                        "initial_sp": 20.0,
+                        "sp_cost": 35.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Cleansing Evil (no kills)",
+                        "initial_sp": 10.0,
+                        "sp_cost": 13.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 4,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Saga P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Fierce Glare",
+                        "initial_sp": 28.0,
+                        "sp_cost": 40.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 20,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Quick Intuition",
+                        "initial_sp": 9.0,
+                        "sp_cost": 18.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 6,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - 'Pinus Sylvestris'",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Flameheart",
+                        "initial_sp": 6.0,
+                        "sp_cost": 16.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 8,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Quick Intuition",
+                        "initial_sp": 9.0,
+                        "sp_cost": 18.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 6,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - 'Pinus Sylvestris'",
+                        "initial_sp": 30.0,
+                        "sp_cost": 40.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Flametail P1 modY3",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Flameheart",
+                        "initial_sp": 6.0,
+                        "sp_cost": 16.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 8,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S1M3 - Light Punishment",
+                        "initial_sp": 8.0,
+                        "sp_cost": 4.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 1,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1",
+                    "cost": 14,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S1M3 - Light Punishment",
+                        "initial_sp": 8.0,
+                        "sp_cost": 4.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 1,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P1 modY1 (Unreleased)",
+                    "cost": 10,
+                    "skill": {
+                        "name": "S3M3 - Volpombra Technique",
+                        "initial_sp": 10.0,
+                        "sp_cost": 18.0,
+                        "duration": 10.0,
+                        "total_dp_generation": 9,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                },
+                {
+                    "name": "Vulpisfoglia P6 modY1 (Unreleased)",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Light Bladefall Torture",
+                        "initial_sp": 20.0,
+                        "sp_cost": 20.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Gathering Momentum",
+                        "needs_to_be_deployed": true,
+                        "dp_per_second": 0.1
+                    }
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 0.0,
+            "title": "Pioneers",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": true,
+            "plot_dp_relative": true
+        },
+        {
+            "operators": [
+                {
+                    "name": "Beanstalk P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Sentinel Command",
+                        "initial_sp": 15.0,
+                        "sp_cost": 30.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 8,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Beanstalk P6",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - 'Everyone Together!'",
+                        "initial_sp": 18.0,
+                        "sp_cost": 40.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Progressive Moisturization",
+                        "initial_sp": 8.0,
+                        "sp_cost": 28.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Ecological Interaction",
+                        "initial_sp": 18.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 15,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Muelsyse P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S3M3 - Superficial Regulation",
+                        "initial_sp": 18.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 15,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S1M3 - Packleader's Call",
+                        "initial_sp": 5.0,
+                        "sp_cost": 21.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 7,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S2M3 - Packleader's Gift (no kills)",
+                        "initial_sp": 4.0,
+                        "sp_cost": 5.0,
+                        "duration": 0.0,
+                        "total_dp_generation": 2,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Vigil P1",
+                    "cost": 15,
+                    "skill": {
+                        "name": "S3M3 - Packleader's Dignity",
+                        "initial_sp": 10.0,
+                        "sp_cost": 35.0,
+                        "duration": 15.0,
+                        "total_dp_generation": 12,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 0.0,
+            "title": "Tacticians",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": true,
+            "plot_dp_relative": true
+        },
+        {
+            "operators": [
+                {
+                    "name": "Myrtle P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Support Î²",
+                        "initial_sp": 13.0,
+                        "sp_cost": 22.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 14,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Cantabile P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S1M3 - Penetrating Gaze",
+                        "initial_sp": 9999.0,
+                        "sp_cost": 9999.0,
+                        "duration": 20.0,
+                        "total_dp_generation": 23,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Cantabile P6",
+                    "cost": 8,
+                    "skill": {
+                        "name": "S2M3 - Specular Reflection",
+                        "initial_sp": 20.0,
+                        "sp_cost": 25.0,
+                        "duration": 10.65,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Puzzle P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S1M3 - Key Clue",
+                        "initial_sp": 2.0,
+                        "sp_cost": 5.0,
+                        "duration": 1.0,
+                        "total_dp_generation": 3,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sequence E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Puzzle P6",
+                    "cost": 9,
+                    "skill": {
+                        "name": "S2M3 - Follow a Lead",
+                        "initial_sp": 14.0,
+                        "sp_cost": 26.0,
+                        "duration": 8.0,
+                        "total_dp_generation": 13,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": {
+                        "name": "Sequence E2",
+                        "needs_to_be_deployed": true,
+                        "dp_to_trigger": 0,
+                        "dp_on_trigger": 2
+                    }
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S1M3 - Shadow Raid",
+                        "initial_sp": 2.78,
+                        "sp_cost": 2.78,
+                        "duration": 0.93,
+                        "total_dp_generation": 2,
+                        "instant": true,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S2M3 - Murky Night",
+                        "initial_sp": 15.0,
+                        "sp_cost": 20.0,
+                        "duration": 12.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                },
+                {
+                    "name": "Ines P1",
+                    "cost": 11,
+                    "skill": {
+                        "name": "S3M3 - Murky Night",
+                        "initial_sp": 9999.0,
+                        "sp_cost": 9999.0,
+                        "duration": 16.0,
+                        "total_dp_generation": 18,
+                        "instant": false,
+                        "sp_per_second": 1.0
+                    },
+                    "talent": null
+                }
+            ],
+            "t_step": 0.1,
+            "t_end": 240.0,
+            "dp_start": 0.0,
+            "title": "Agents",
+            "plot_dp_absolute": false,
+            "plot_dp_added": true,
+            "plot_dp_added_trend": false,
+            "plot_dp_relative": true
+        }
+    ],
+    "output_dir": "output"
+}

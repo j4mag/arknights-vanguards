@@ -1,6 +1,8 @@
+import argparse
 import pathlib
 import pydantic
 import plotly.graph_objects as go
+import json
 
 import vanguard_lib.api
 import vanguard_lib.vanguards
@@ -26,7 +28,12 @@ class Parameters(pydantic.BaseModel):
     output_dir: pathlib.Path = pathlib.Path("output")
 
 
-def get_parameters() -> Parameters:
+def get_parameters(config_path: pathlib.Path|None) -> Parameters:
+    if config_path:
+        with open(config_path) as f:
+            config_json = json.load(f)
+        return Parameters(**config_json)
+
     return Parameters(
         simulations=[
             SimulationParameters(
@@ -152,5 +159,8 @@ def run(params: Parameters) -> list[go.Figure]:
 
 
 if __name__ == "__main__":
-    params = get_parameters()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-c', '--config-file', type=pathlib.Path, required=False, help="Path to configuration files")
+    args = parser.parse_args()
+    params = get_parameters(args.config_file)
     run(params)
