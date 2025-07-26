@@ -159,7 +159,7 @@ def run(params: Parameters):
         plotting.save_plot(fig, tgt_dir=params.output_dir / "plots", mkdir=True)
 
 
-if __name__ == "__main__":
+def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-c",
@@ -171,3 +171,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     params = get_parameters(args.config_file)
     run(params)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

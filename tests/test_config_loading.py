@@ -1,4 +1,4 @@
-from src.vanguard_lib import app
+from vanguard_lib import app
 
 
 def test_config_round_trip():

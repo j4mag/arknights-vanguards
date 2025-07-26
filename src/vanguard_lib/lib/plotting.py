@@ -307,7 +307,9 @@ def save_plot(
         title = uuid.uuid1()
 
     title = slugify.slugify(str(title)) + ".html"
-    fig.write_html(tgt_dir / title)
+    output_path = tgt_dir / title
+    output_path.unlink(missing_ok=True)
+    fig.write_html(output_path)
 
     if show:
         fig.show()
