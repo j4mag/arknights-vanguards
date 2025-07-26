@@ -1,0 +1,20 @@
+[project]
+name = "vanguards"
+version = "0.1.0"
+description = "Arknights vanguard simulator"
+readme = "README.md"
+requires-python = "==3.13.*"
+dependencies = [
+    "numpy>=2.3.2",
+    "plotly>=6.2.0",
+    "pydantic>=2.11.7",
+    "python-slugify>=8.0.4",
+    "uuid>=1.30",
+]
+
+[dependency-groups]
+dev = ["pytest", "coverage", "pdbpp"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
