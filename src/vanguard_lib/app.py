@@ -4,6 +4,7 @@ import typing
 import pydantic
 import plotly.graph_objects as go
 import json
+import yattag
 
 from . import api
 from . import vanguards
@@ -155,8 +156,29 @@ def run(params: Parameters):
         (simulate_and_plot(sim_params) for sim_params in params.simulations),
         start=[],
     )
-    for fig in figures:
-        plotting.save_plot(fig, tgt_dir=params.output_dir / "plots", mkdir=True)
+    figure_paths = [
+        (plotting.save_plot(fig, tgt_dir=params.output_dir / "plots", mkdir=True), fig)
+        for fig in figures
+    ]
+
+    write_index(params.output_dir / "index.html", figure_paths)
+
+
+def write_index(
+    tgt_file: pathlib.Path,
+    figure_paths: typing.Sequence[tuple[pathlib.Path, go.Figure]],
+):
+    doc = yattag.Doc()
+    with doc.tag("h1"):
+        doc.text("Arknights Vanguard Index")
+    for path, fig in figure_paths:
+        with doc.tag("p"):
+            with doc.tag("a", href=str(path.relative_to(tgt_file.parent))):
+                title = plotting._get_fig_name(fig, default="Unnamed Figure")
+                doc.text(title.replace("<br>", "\u2013"))
+
+    with open(tgt_file, "w", encoding="utf-8") as f:
+        f.write(doc.getvalue())
 
 
 def main(argv: typing.Sequence[str] | None = None) -> int:

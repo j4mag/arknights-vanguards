@@ -289,20 +289,25 @@ def plot_dp_relative(results: list[api.SimulationResult], title: str = "") -> go
     return fig
 
 
+def _get_fig_name(fig: go.Figure, default: str) -> str:
+    title = fig.layout.title.text
+    if not title:
+        title = default
+    return title
+
+
 def save_plot(
     fig: go.Figure,
     tgt_dir: pathlib.Path | str = "outputs",
     mkdir: bool = False,
-):
+) -> pathlib.Path:
     tgt_dir = pathlib.Path(tgt_dir)
     if mkdir:
         tgt_dir.mkdir(exist_ok=True)
 
-    title = fig.layout.title.text
-    if not title:
-        title = uuid.uuid1()
-
-    title = slugify.slugify(str(title)) + ".html"
+    title = _get_fig_name(fig, default=str(uuid.uuid1()))
+    title = slugify.slugify(title) + ".html"
     output_path = tgt_dir / title
     output_path.unlink(missing_ok=True)
     fig.write_html(output_path)
+    return output_path
