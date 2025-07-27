@@ -10,7 +10,7 @@ ARGS_RUN := env("_UV_RUN_ARGS_RUN", "")
 # Run app
 [group('run')]
 run *args:
-    uv run {{ ARGS_RUN }} -m vanguard_lib.app {{ args }}
+    uv run {{ ARGS_RUN }} -m vanguard_lib {{ args }}
 
 # Run tests
 [group('qa')]
@@ -25,6 +25,8 @@ _cov *args:
 @cov:
     just _cov erase
     just _cov run -m pytest tests
+    just _cov run -m vanguard_lib
+    just _cov run -m vanguard_lib -c config/config.json
     just _cov combine
     just _cov report
     just _cov html
