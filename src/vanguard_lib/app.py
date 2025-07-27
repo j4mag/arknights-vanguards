@@ -5,10 +5,10 @@ import pydantic
 import plotly.graph_objects as go
 import json
 
-from .lib import api
-from .lib import vanguards
-from .lib import simulation
-from .lib import plotting
+from . import api
+from . import vanguards
+from . import simulation
+from . import plotting
 
 
 class SimulationParameters(pydantic.BaseModel):

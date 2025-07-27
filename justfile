@@ -72,6 +72,7 @@ clean:
     just _rmdir .venv
     just _rmdir .pytest_cache
     just _rmdir .ruff_cache
+    just _rmdir .coverage
     just _rmdir output
     just _rmdir htmlcov
     just _find_remove . __pycache__
