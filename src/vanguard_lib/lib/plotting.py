@@ -292,7 +292,6 @@ def plot_dp_relative(results: list[api.SimulationResult], title: str = "") -> go
 def save_plot(
     fig: go.Figure,
     tgt_dir: pathlib.Path | str = "outputs",
-    show: bool = False,
     mkdir: bool = False,
 ):
     tgt_dir = pathlib.Path(tgt_dir)
@@ -307,6 +306,3 @@ def save_plot(
     output_path = tgt_dir / title
     output_path.unlink(missing_ok=True)
     fig.write_html(output_path)
-
-    if show:
-        fig.show()

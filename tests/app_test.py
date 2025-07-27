@@ -18,3 +18,30 @@ def test_no_config():
         f.write(parameters_no_input.model_dump_json(indent=4, round_trip=True))
     parameters_with_input = app.get_parameters(config_file)
     assert parameters_no_input == parameters_with_input
+
+
+def test_main_config():
+    app.main(("-c", "config/config.json"))
+
+
+def test_main_no_config():
+    app.main("")
+
+
+def test_disabled_plots():
+    parameters = app.Parameters(
+        simulations=[
+            app.SimulationParameters(
+                operators=app.vanguards.ALL_OPERATOR_SKILLS,
+                title="All Operators",
+                t_step=0.1,
+                t_end=240,
+                dp_start=0,
+                plot_dp_absolute=False,
+                plot_dp_added=False,
+                plot_dp_added_trend=False,
+                plot_dp_relative=False,
+            ),
+        ]
+    )
+    app.run(parameters)

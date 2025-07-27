@@ -1,5 +1,6 @@
 import argparse
 import pathlib
+import typing
 import pydantic
 import plotly.graph_objects as go
 import json
@@ -158,7 +159,7 @@ def run(params: Parameters):
         plotting.save_plot(fig, tgt_dir=params.output_dir / "plots", mkdir=True)
 
 
-def main() -> int:
+def main(argv: typing.Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-c",
@@ -167,11 +168,7 @@ def main() -> int:
         required=False,
         help="Path to configuration files",
     )
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
     params = get_parameters(args.config_file)
     run(params)
     return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

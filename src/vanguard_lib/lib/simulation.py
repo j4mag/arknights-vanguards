@@ -88,7 +88,10 @@ def simulate(
 
 
 def simulate_operators(
-    operators: list[api.Vanguard], t_step=0.1, t_end=240, dp_start=0
+    operators: list[api.Vanguard],
+    t_step: float = 0.1,
+    t_end: float = 240,
+    dp_start: float = 0,
 ) -> list[api.SimulationResult]:
     simulation_setups = [
         api.SimulationSetup(

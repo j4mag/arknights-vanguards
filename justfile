@@ -7,9 +7,6 @@ ARGS_RUN := env("_UV_RUN_ARGS_RUN", "")
 @_:
     just --list
 
-# run file *args:
-#     uv run {{ file }} {{ args }}
-
 # Run app
 [group('run')]
 run *args:
@@ -35,7 +32,7 @@ _cov *args:
 # Run linters
 [group('qa')]
 lint:
-    uvx ruff check
+    uvx ruff check --fix
     uvx ruff format
 
 # Check types
