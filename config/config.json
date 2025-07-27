@@ -2535,5 +2535,5 @@
             "plot_dp_relative": true
         }
     ],
-    "output_dir": "output"
+    "output_dir": "docs"
 }
